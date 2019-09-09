@@ -1,7 +1,17 @@
-.footer {
-    font-family: $fontSecondary;
-    font-weight: 400;
-    span {
-        color: pink;
-    }
+.app-footer {
+ width: 100%;
+ height: 100px;
+ background-color: $colorBackground;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ position: absolute;
+ bottom: 0;
+ p {
+     color: $colorDark;
+     font-family: $fontPrimary;
+     font-size: 0.7rem;
+     margin: 0.5rem;
+ }
 }

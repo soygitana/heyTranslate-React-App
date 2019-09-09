@@ -2,10 +2,11 @@ body {
     font-family: $fontPrimary;
     color: $colorDark;
     font-size: 10px;
+    position: relative;
 }
 
 .container {
-    width: 1400px;
+    width: 1500px;
     margin: 0 auto;
 }
 
@@ -18,16 +19,6 @@ body {
 .box-flex {
     flex: 1;
     padding: .5rem;
-}
-
-.btn {
-    background-color: transparent;
-    border: 1px solid $colorDark;
-    color: $colorDark;
-    text-transform: uppercase;
-    padding: 1rem;
-    width: 10rem;
-    cursor: pointer;
 }
 
 .img-fluid {

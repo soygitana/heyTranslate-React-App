@@ -4,7 +4,10 @@ import "../styles/main.scss";
 class Footer extends Component {
     render() {
         return (
-            <h1 className="footer">hey, i am footer <span>really footer</span></h1>
+            <div className="app-footer">
+                <p>© I am Paula. All rights reserved. 2019</p>
+                <p>Made by soygitana in Poland</p>
+            </div>
         )
     }
 }
