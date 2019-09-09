@@ -1,0 +1,22 @@
+.app-button {
+    font-family: $fontPrimary;
+    background-color: transparent;
+    border: 1px solid $colorDeco;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 1rem;
+    letter-spacing: 1px;
+    font-size: .9rem;
+    color: $colorDeco;
+    font-weight: 400;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.app-button:hover {
+    color: $colorPearl;
+    background-color: $colorDarkest;
+    border: 1px solid $colorDarkest;
+  
+}

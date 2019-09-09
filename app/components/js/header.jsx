@@ -1,10 +1,17 @@
 import React, { Component } from "react";
-import "./header.scss";
+import "../styles/main.scss";
+import Logo from "./logo.jsx"
+import Button from "./button.jsx"
 
 class Header extends Component {
     render() {
         return (
-            <h1>hey, i am header.</h1>
+       <div className="app-header">
+           <div className="container">
+           <Logo/>
+           <Button text='vendor comparison'/>
+           </div>
+       </div>
         )
     }
 }

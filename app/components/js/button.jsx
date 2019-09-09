@@ -2,8 +2,9 @@ import React, { Component } from "react";
 
 class Button extends Component {
     render() {
+        const text = this.props.text
         return (
-            <h1>hej jestem button</h1>
+           <button className="app-button">{text}</button>
         )
     }
 }

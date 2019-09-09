@@ -1,0 +1,36 @@
+body {
+    font-family: $fontPrimary;
+    color: $colorDark;
+    font-size: 10px;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-flex {
+    flex: 1;
+    padding: .5rem;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid $colorDark;
+    color: $colorDark;
+    text-transform: uppercase;
+    padding: 1rem;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

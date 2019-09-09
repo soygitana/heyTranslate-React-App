@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import "../styles/main.scss";
 
 class Footer extends Component {
     render() {
         return (
-            <h1>hey, i am footer.</h1>
+            <h1 className="footer">hey, i am footer <span>really footer</span></h1>
         )
     }
 }

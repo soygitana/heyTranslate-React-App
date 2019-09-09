@@ -10,9 +10,7 @@ import ReactDOM from "react-dom";
 
 
 import Header from './header.jsx';
-import Logo from './logo.jsx';
-import Button from './button.jsx';
-import Search from './search.jsx';
+import Searchbar from './searchbar.jsx';
 import Social from './social.jsx';
 import Footer from './footer.jsx';
 
@@ -22,9 +20,7 @@ class App extends Component {
         return (
             <>
             <Header />
-            <Logo />
-            <Button />
-            <Search />
+            <Searchbar />
             <Social />
             <Footer />
             </>
