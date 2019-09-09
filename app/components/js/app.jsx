@@ -9,7 +9,9 @@ import ReactDOM from "react-dom";
 // } from 'react-router-dom';
 
 
-import Header from './components/component_header/header.jsx';
+import Header from './header.jsx';
+
+
 
 class App extends Component {
     render() {

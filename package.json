@@ -1,7 +1,6 @@
 {
-  "name": "my react app",
+  "name": "my_react_app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soygitana/WAR_FER_W_23_REACT_React.git"
+    "url": "git+https://github.com/soygitana/my-react-app.git"
   },
   "keywords": [],
-  "author": "Paula Lizon",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/soygitana/WAR_FER_W_23_REACT_React/issues"
+    "url": "https://github.com/soygitana/my-react-app/issues"
   },
-  "homepage": "https://github.com/soygitana/WAR_FER_W_23_REACT_React#readme",
+  "homepage": "https://github.com/soygitana/my-react-app#readme",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
@@ -35,11 +34,8 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
     "react": "^16.8.4",
-    "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.8.4",
-    "react-router-dom": "^5.0.1",
     "whatwg-fetch": "^3.0.0"
   }
 }
