@@ -1,12 +1,12 @@
+/* styles for the app header */
+
 .app-header {
  width: 100%;
  height: 100px;
  background-color: $colorBackground;
  display: flex;
  align-items: center;
- .container {
-    width: 1600px;
-    margin: 0 auto;
+ .app-container {
     display: flex;
     justify-content: space-between;
     align-items: center;

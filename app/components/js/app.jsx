@@ -11,7 +11,7 @@ import ReactDOM from "react-dom";
 
 import Header from './header.jsx';
 import Searchbar from './searchbar.jsx';
-import Social from './social.jsx';
+import Panel from './panel.jsx';
 import Footer from './footer.jsx';
 
 
@@ -21,6 +21,7 @@ class App extends Component {
             <>
             <Header />
             <Searchbar />
+            <Panel/>
             <Footer />
             </>
         )

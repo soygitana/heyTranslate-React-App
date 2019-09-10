@@ -3,26 +3,28 @@
 .app-searchbar {
     width: 100%;
     margin-top: 50px;
-    .container {
-          width: 1600px;
-          margin: 0 auto;
-           }
 }
+
+/* styles for the search box */
 
 .form-control {
     width: 50%;
     font-family: $fontPrimary;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+  
 }
 
-/* Bootstrap 4 text input with search icon */
+/* styles for the text input with search icon */
 
-.has-search .form-control {
-    padding-left: 2.5rem;
+.form-group {
+    position: relative;
 }
 
 .has-search .form-control-feedback {
     position: absolute;
+    top: 0;
+    right: 50%;
     z-index: 2;
     display: block;
     width: 2.5rem;
@@ -30,7 +32,7 @@
     line-height: 2.5rem;
     text-align: center;
     pointer-events: none;
-    color: #aaa;
+    color: rgb(148, 146, 146);
 }
 
 .form-control:focus {

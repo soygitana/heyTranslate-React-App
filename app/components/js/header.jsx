@@ -7,7 +7,7 @@ class Header extends Component {
     render() {
         return (
        <div className="app-header">
-           <div className="container">
+           <div className="app-container">
            <Logo/>
            <Button text='vendor comparison'/>
            </div>
