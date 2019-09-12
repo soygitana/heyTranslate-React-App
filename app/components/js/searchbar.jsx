@@ -25,7 +25,10 @@ import FilterResults from 'react-filter-search';
 
 function SearchingFor(query) {
   return function (x) {
-    return x.name.toLowerCase().includes(query.toLowerCase()) || !query;
+    return x.name.toLowerCase().includes(query.toLowerCase()) ||
+      x.lastname.toLowerCase().includes(query.toLowerCase()) ||
+      x.language.toLowerCase().includes(query.toLowerCase()) ||
+      !query;
   }
 }
 
@@ -74,20 +77,22 @@ class Searchbar extends Component {
             <div className="form-group has-search">
               <span className="fa fa-search form-control-feedback"></span>
               <input type="text" className="form-control" placeholder="find by vendor name"
-                onChange={this.searchHandler}
+                onChange={this.searchHandler} value={query}
 
               />
             </div>
           </div>
         </form>
         {/* <Panel results={this.state.results} /> */}
-        <div>
-          {results.filter(SearchingFor(query)).map(result =>
-            <ul key={result.id}>
-              <li>{result.name} {result.lastname} {result.language}</li>
-            </ul>
-          )
-          }
+        <div className="app-container">
+          <div className="app-panel">
+            {results.filter(SearchingFor(query)).map(result =>
+              <ul key={result.id}>
+                <li>{result.name} {result.lastname} {result.language}</li>
+              </ul>
+            )
+            }
+          </div>
         </div>
       </>
     )
