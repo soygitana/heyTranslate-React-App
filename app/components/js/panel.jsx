@@ -1,10 +1,10 @@
 import React from 'react'
 import "../styles/main.scss";
 
-const Suggestions = (props) => {
-  const options = props.results.map(el => (
-    <li key={el.id}>
-      {el.name} {el.lastname} {el.language}
+const Panel = (props) => {
+  const options = props.results.map(result => (
+    <li key={result.id}>
+      {result.name} {result.lastname} {result.language}
     </li>
   ))
   return (
@@ -16,4 +16,4 @@ const Suggestions = (props) => {
   )
 }
 
-export default Suggestions
+export default Panel
