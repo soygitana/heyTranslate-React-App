@@ -1,19 +1,38 @@
-// import React from 'react'
-// import "../styles/main.scss";
+import React, { Component } from 'react'
+import "../styles/main.scss";
 
-// const Panel = (props) => {
-//   const options = props.results.map(result => (
-//     <li key={result.id}>
-//       {result.name} {result.lastname} {result.language}
-//     </li>
-//   ))
-//   return (
-//     <div className="app-container">
-//     <div className="app-panel">
-//     <ul>{options}</ul>
-//     </div>
-// </div>
-//   )
-// }
+// creating SearchingFor function to filtr data by name, lastname, language
 
-// export default Panel
+function SearchingFor(query) {
+  return function (x) {
+    return x.name.toLowerCase().includes(query.toLowerCase()) ||
+      x.lastname.toLowerCase().includes(query.toLowerCase()) ||
+      x.language.toLowerCase().includes(query.toLowerCase()) ||
+      !query;
+  }
+}
+
+// creating Panel component which is rendering searched suggestions in 
+
+class Panel extends Component {
+  render() {
+    const results = this.props.results
+    const query = this.props.query
+    return (
+      <div className="app-container">
+        <div className="app-panel">
+          {
+            results.filter(SearchingFor(query)).map(result =>
+              <ul key={result.id}>
+                <li>{result.name} {result.lastname} {result.language}</li>
+              </ul>
+            )
+          }
+        </div>
+      </div>
+    )
+  }
+}
+
+export default Panel;
+

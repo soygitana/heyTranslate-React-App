@@ -13,6 +13,7 @@ import Header from './header.jsx';
 import Searchbar from './searchbar.jsx';
 import Footer from './footer.jsx';
 
+// creating main App component which is rendering my app :)
 
 class App extends Component {
     render() {

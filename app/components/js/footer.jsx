@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "../styles/main.scss";
 
+// creating Footer component which is rendering app footer 
+
 class Footer extends Component {
     render() {
         return (

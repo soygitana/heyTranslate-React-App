@@ -3,6 +3,8 @@ import "../styles/main.scss";
 import Logo from "./logo.jsx"
 import Button from "./button.jsx"
 
+// creating Header component (includes: Logo and Button components) which is rendering app header 
+
 class Header extends Component {
     render() {
         return (
