@@ -4,31 +4,91 @@
       "id": 1,
       "name": "Laura",
       "lastname": "Zoppi",
-      "language": "Italian"
+      "language": "Italian",
+      "service1": "Translation",
+      "service2": "Editing / Reviewing",
+      "service3": "Proof-reading"
     },
     {
       "id": 2,
       "name": "Daria",
       "lastname": "Giglini",
-      "language": "Italian"
+      "language": "Italian",
+      "service1": "Translation",
+      "service2": "Editing / Reviewing",
+      "service3": "Proof-reading"
     },
     {
       "id": 3,
       "name": "Michael",
       "lastname": "Steavens",
-      "language": "English"
+      "language": "English",
+      "service1": "Translation",
+      "service2": "Editing / Reviewing",
+      "service3": "Proof-reading"
     },
     {
       "id": 4,
       "name": "Marta",
       "lastname": "Silva",
-      "language": "Portuguese"
+      "language": "Portuguese",
+      "service1": "Translation",
+      "service2": "Editing / Reviewing",
+      "service3": "Proof-reading"
     },
     {
       "id": 5,
       "name": "Silvana",
       "lastname": "Fernandes",
-      "language": "Portuguese"
+      "language": "Portuguese",
+      "service1": "Translation",
+      "service2": "Editing / Reviewing",
+      "service3": "Proof-reading"
+    },
+    {
+      "id": 6,
+      "name": "Laura",
+      "lastname": "Zoppi",
+      "language": "Italian",
+      "service1": "Translation",
+      "service2": "Editing / Reviewing",
+      "service3": "Proof-reading"
+    },
+    {
+      "id": 7,
+      "name": "Daria",
+      "lastname": "Giglini",
+      "language": "Italian",
+      "service1": "Translation",
+      "service2": "Editing / Reviewing",
+      "service3": "Proof-reading"
+    },
+    {
+      "id": 8,
+      "name": "Michael",
+      "lastname": "Steavens",
+      "language": "English",
+      "service1": "Translation",
+      "service2": "Editing / Reviewing",
+      "service3": "Proof-reading"
+    },
+    {
+      "id": 9,
+      "name": "Marta",
+      "lastname": "Silva",
+      "language": "Portuguese",
+      "service1": "Translation",
+      "service2": "Editing / Reviewing",
+      "service3": "Proof-reading"
+    },
+    {
+      "id": 10,
+      "name": "Silvana",
+      "lastname": "Fernandes",
+      "language": "Portuguese",
+      "service1": "Translation",
+      "service2": "Editing / Reviewing",
+      "service3": "Proof-reading"
     }
   ]
 }

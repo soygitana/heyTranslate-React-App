@@ -26,7 +26,7 @@ class Searchbar extends Component {
   // fetching data with axios from local db
 
   componentDidMount() {
-    axios.get('http://localhost:4000/data')
+    axios.get('http://localhost:3000/data')
       .then(res => {
         console.log(res);
         this.setState({
@@ -48,7 +48,7 @@ class Searchbar extends Component {
           <div className="app-container">
             <div className="form-group has-search">
               <span className="fa fa-search form-control-feedback"></span>
-              <input type="text" className="form-control" placeholder="find by vendor name"
+              <input type="text" className="form-control" placeholder="enter a vendor name, lastname or language"
                 onChange={this.searchHandler} value={query}
               />
             </div>

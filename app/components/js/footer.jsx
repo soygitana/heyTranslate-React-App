@@ -7,11 +7,15 @@ class Footer extends Component {
     render() {
         return (
             <div className="app-footer">
-                <p>© I am Paula. All rights reserved. 2019</p>
-                <p>Made by soygitana in Poland</p>
+                <p>Built by @soygitana with <a href="https://reactjs.org/">React</a>. Data based on private information.
+                 Source code available on <a href="https://github.com/soygitana">GitHib</a>.</p>
             </div>
         )
     }
 }
 
 export default Footer;
+
+
+
+// <p>Built by @soygitana with React, Node.js and MongoDB. Data based on Wikipedia. Source code available on GitHub.</p>

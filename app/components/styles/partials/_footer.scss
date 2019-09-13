@@ -13,7 +13,9 @@
  p {
      color: $colorDark;
      font-family: $fontPrimary;
-     font-size: 0.7rem;
-     margin: 0.5rem;
+     font-size: 12px;
+    a {
+       color: $colorDeco;
+    }
  }
 }
