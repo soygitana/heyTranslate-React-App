@@ -28,7 +28,7 @@ class Panel extends Component {
                   <div className="app-card">
 
                     <div className="card-wrap">
-                      <img src="../images/img.jpg" className="img-fluid" alt=""></img>
+                      <img src={result.image} className="img-fluid" alt=""></img>
                       <div className="card-mask">
                         <h2>{result.name} {result.lastname}</h2>
                         <h3>{result.language}</h3>
@@ -40,7 +40,7 @@ class Panel extends Component {
                         <div className="card-social">
                           <a href="#"><i class="fas fa-envelope"></i></a>
                           <a href="#"><i class="fas fa-phone"></i></a>
-                          <a href="#"><i class="fab fa-linkedin"></i></a>            
+                          <a href="#"><i class="fab fa-linkedin"></i></a>
                         </div>
                       </div>
                     </div>

@@ -19,9 +19,9 @@ class App extends Component {
     render() {
         return (
             <>
-            <Header />
-            <Searchbar />
-            <Footer />
+                <Header />
+                <Searchbar />
+                <Footer />
             </>
         )
     }

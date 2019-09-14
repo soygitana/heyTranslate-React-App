@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Panel from './panel.jsx'
+import Pagination from './pagination.jsx';
 import "../styles/main.scss";
 import axios from 'axios'
 
@@ -10,9 +11,12 @@ class Searchbar extends Component {
     super(props)
     this.state = {
       query: '',
-      results: []
+      results: [],
+      page: 1,
+      data: []
     };
     this.searchHandler = this.searchHandler.bind(this);
+    this.changePage = this.changePage.bind(this);
   }
 
   // creating function searchHandler for onChange event in input, changing state query to input value
@@ -28,14 +32,23 @@ class Searchbar extends Component {
   componentDidMount() {
     axios.get('http://localhost:3000/data')
       .then(res => {
-        console.log(res);
+        console.log(res.data['page' + this.state.page]);
         this.setState({
-          results: res.data
+          data: res.data,
+          results: res.data['page' + this.state.page]
         })
       })
       .catch(error => {
         console.log(error);
       });
+  }
+
+  changePage(page) {
+    this.setState({
+      data: this.state.data,
+      results: this.state.data['page' + page],
+      page: page
+    })
   }
 
   render() {
@@ -54,6 +67,7 @@ class Searchbar extends Component {
             </div>
           </div>
         </form>
+        <Pagination changePage={this.changePage} page={this.state.page} />
         <Panel results={this.state.results} query={this.state.query} />
       </>
     )

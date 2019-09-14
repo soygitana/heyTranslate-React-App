@@ -3,7 +3,8 @@
 .app-button {
     font-family: $fontPrimary;
     background-color: transparent;
-    border: 1px solid $colorDarkest;;
+    border: 1px solid $colorDarkest;
+    ;
     border-radius: 10px;
     text-transform: uppercase;
     padding: 1rem;
@@ -14,10 +15,36 @@
     cursor: pointer;
     opacity: 0.8;
     transition: 0.5s;
+
     &:hover {
         color: $colorPearl;
         background-color: $colorDeco;
-        border: 1px solid $colorDeco;  
+        border: 1px solid $colorDeco;
     }
 }
 
+.app-controlers {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+    .app-button {
+        width: 50px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        border: 1px solid rgb(212, 212, 212);
+
+        i {
+            font-size: 10px;
+            line-height: 0px;
+            color: $colorDeco;
+        }
+
+        &:hover {
+            background-color: rgb(248, 245, 245);
+        }
+    }
+}
