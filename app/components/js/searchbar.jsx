@@ -22,8 +22,20 @@ class Searchbar extends Component {
   // creating function searchHandler for onChange event in input, changing state query to input value
 
   searchHandler(event) {
+    let results = this.state.data;
+    let output = [];
+
+    for (let key in results) { // array iteration
+      let element = results[key];
+      for (let key2 in element) { // people iteration
+        let element2 = element[key2];
+        output.push(element2);
+      }
+    }
+
     this.setState({
-      query: event.target.value
+      query: event.target.value,
+      results: output
     })
   }
 
@@ -53,7 +65,7 @@ class Searchbar extends Component {
 
   render() {
     console.log(this.state.query)
-    console.log(this.state.results)
+    console.log(this.state.data)
     const { query } = this.state.query;
     return (
       <>
