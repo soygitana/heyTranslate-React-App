@@ -37,6 +37,7 @@ class Searchbar extends Component {
       query: event.target.value,
       results: output
     })
+
   }
 
   // fetching data with axios from local db

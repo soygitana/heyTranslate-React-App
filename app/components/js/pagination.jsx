@@ -14,11 +14,11 @@ class Pagination extends Component {
     clickHandler(page) {
         console.clear();
         console.log(`clicked`, this.props.page);
-        if (page > 3) {
+        if (page > 4) {
             this.props.changePage(1);
         } else
             if (page < 1) {
-                this.props.changePage(3);
+                this.props.changePage(4);
             } else {
                 this.props.changePage(page);
             }
