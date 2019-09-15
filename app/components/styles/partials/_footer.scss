@@ -24,3 +24,15 @@
       }
    }
 }
+
+// media queries for footer 
+
+@media (max-width: 520px) {
+   .app-footer {
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: center;
+   }
+
+
+}

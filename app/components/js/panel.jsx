@@ -19,7 +19,7 @@ class Panel extends Component {
     const results = this.props.results
     const query = this.props.query
     return (
-      <div className="app-container">
+      <div className="app-container col-12">
         <div className="app-panel">
           {
             results.filter(SearchingFor(query)).map(result =>

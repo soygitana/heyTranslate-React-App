@@ -8,12 +8,12 @@ import Button from "./button.jsx"
 class Header extends Component {
     render() {
         return (
-       <div className="app-header">
-           <div className="app-container">
-           <Logo/>
-           <Button text='vendor comparison'/>
-           </div>
-       </div>
+            <div className="app-header">
+                <div className="app-container col-12">
+                    <Logo />
+                    <Button text='vendor comparison' />
+                </div>
+            </div>
         )
     }
 }

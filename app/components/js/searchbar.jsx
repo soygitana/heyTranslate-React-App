@@ -71,7 +71,7 @@ class Searchbar extends Component {
     return (
       <>
         <form className="app-searchbar">
-          <div className="app-container">
+          <div className="app-container col-12">
             <div className="form-group has-search">
               <span className="fa fa-search form-control-feedback"></span>
               <input type="text" className="form-control" placeholder="enter a vendor name, lastname or language"
