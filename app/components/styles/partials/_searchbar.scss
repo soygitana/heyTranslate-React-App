@@ -3,6 +3,7 @@
 .app-searchbar {
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 130px;
 }
 
 /* styles for the search box */
@@ -42,9 +43,10 @@
 }
 
 
-// media queries for searchbar 
 
-@media (max-width: 715px) {
+ // media queries for searchbar 
+
+ @media (max-width: 715px) {
     .form-control {
         width: 70%;
     }

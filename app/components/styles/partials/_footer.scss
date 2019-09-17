@@ -12,7 +12,7 @@
    bottom: 0;
    left: 0;
    margin-bottom: -100px;
-
+ 
 
    p {
       color: $colorDark;
@@ -25,14 +25,3 @@
    }
 }
 
-// media queries for footer 
-
-@media (max-width: 520px) {
-   .app-footer {
-      padding-left: 50px;
-      padding-right: 50px;
-      text-align: center;
-   }
-
-
-}
