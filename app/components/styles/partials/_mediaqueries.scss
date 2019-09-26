@@ -1,4 +1,81 @@
-// RWD for mobiles
+// app container width for screen with min width 1500px
+
+@media (min-width: 1500px) {  
+  .app-container {
+      max-width: 1500px;
+      margin: 0 auto;
+  }
+  }
+  
+// media queries for the button 
+
+@media (max-width: 950px) {
+  .app-button {
+      width: 200px;
+      height: 50px;
+      line-height: 12px;
+      font-size: 12px;
+  }
+}
+
+ // media queries for searchbar 
+
+ @media (max-width: 715px) {
+  .form-control {
+      width: 70%;
+  }
+
+  .has-search .form-control-feedback {
+      right: 30%;
+  }
+}
+
+@media (max-width: 520px) {
+  .form-control {
+      width: 100%;
+  }
+
+  .has-search .form-control-feedback {
+      right: 2%;
+  }
+}
+
+// RWD FOR MOBILES and smaller screens
+
+@media (min-width: 850px) and (max-width: 1025px) {
+  .app-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  input.form-control {
+    font-size: 15px;
+  }
+
+  div.app-footer p {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .app-container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 520px) {
+  .app-footer {
+     padding-left: 50px;
+     padding-right: 50px;
+     text-align: center;
+  }
+}
 
 @media (max-width: 380px) {
   h1 {
@@ -21,40 +98,4 @@
   }
 }
 
-@media (max-width: 520px) {
-    .app-footer {
-       padding-left: 50px;
-       padding-right: 50px;
-       text-align: center;
-    }
- 
- 
-@media (min-width: 500px) and (max-width: 800px) {
-  .app-container {
-    max-width: 700px;
-    margin: 0 auto;
-  }
-}
 
-@media (min-width: 850px) and (max-width: 1025px) {
-  .app-container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  h1 {
-    font-size: 50px;
-  }
-
-  input.form-control {
-    font-size: 15px;
-  }
-
-  div.app-footer p {
-    font-size: 16px;
-    padding-top: 20px;
-  }
-}
-
-
- }

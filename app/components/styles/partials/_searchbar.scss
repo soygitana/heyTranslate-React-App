@@ -44,28 +44,4 @@
 
 
 
- // media queries for searchbar 
-
- @media (max-width: 715px) {
-    .form-control {
-        width: 70%;
-    }
-
-    .has-search .form-control-feedback {
-        right: 30%;
-
-    }
-
-}
-
-@media (max-width: 520px) {
-    .form-control {
-        width: 100%;
-    }
-
-    .has-search .form-control-feedback {
-        right: 2%;
-
-    }
-
-}
+  
