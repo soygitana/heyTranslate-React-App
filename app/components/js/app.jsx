@@ -9,24 +9,9 @@ import {
   } from 'react-router-dom';
 
 
-import Header from './header.jsx';
-import Searchbar from './searchbar.jsx';
-import Footer from './footer.jsx';
+import Main from './main.jsx'
+import Comparison from './comparison.jsx'
 import NotFound from './notfound.jsx'
-
-
-
-class Main extends Component {
-    render() {
-        return (
-            <>
-                <Header />
-                <Searchbar />
-                <Footer />
-            </>
-        )
-    }
-}
 
 
 // creating main App component which is rendering my app :)
@@ -37,6 +22,7 @@ class App extends Component {
             <HashRouter>
             <Switch>
               <Route exact path='/' component={Main} />
+              <Route exact path='/comparison' component={Comparison} />
               <Route component={NotFound} />
             </Switch>
           </HashRouter>
