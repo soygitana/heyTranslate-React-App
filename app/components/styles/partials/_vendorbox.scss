@@ -1,0 +1,18 @@
+.app-vendorbox {
+    display: flex;
+    justify-content: center;
+    border: 1px dashed grey;
+    width: 200px;
+    height: 300px;
+}
+
+.app-vendorpanel {
+   
+        border: 1px dashed grey;
+        width: 100%;
+        display: flex;
+        // flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-top: 20px;
+}

@@ -11,7 +11,7 @@ class Header extends Component {
             <div className="app-header">
                 <div className="app-container col-12">
                     <Logo />
-                    <Button text='vendor comparison' />
+                    <Button/>
                 </div>
             </div>
         )
