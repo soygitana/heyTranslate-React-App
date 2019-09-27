@@ -28,7 +28,7 @@ class Pagination extends Component {
         return (
             <>
                 <div className="app-container col-12">
-                    <div class="app-controlers">
+                    <div className="app-controlers">
                         {/* <h2>{this.props.page}</h2> */}
                         <button className="app-button" onClick={(e) => { this.clickHandler(this.props.page - 1); }}><i className="fas fa-chevron-left"></i></button>
                         <button className="app-button" onClick={(e) => { this.clickHandler(this.props.page + 1) }}><i className="fas fa-chevron-right"></i></button>

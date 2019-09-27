@@ -38,9 +38,9 @@ class Panel extends Component {
                           <li>{result.service3}</li>
                         </ul>
                         <div className="card-social">
-                          <a href="#"><i class="fas fa-envelope"></i></a>
-                          <a href="#"><i class="fas fa-phone"></i></a>
-                          <a href="#"><i class="fab fa-linkedin"></i></a>
+                          <a href="#"><i className="fas fa-envelope"></i></a>
+                          <a href="#"><i className="fas fa-phone"></i></a>
+                          <a href="#"><i className="fab fa-linkedin"></i></a>
                         </div>
                       </div>
                     </div>

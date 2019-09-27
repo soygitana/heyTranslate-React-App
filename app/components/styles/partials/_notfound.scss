@@ -1,0 +1,24 @@
+.app-error {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: $fontPrimary;
+    letter-spacing: 2px;
+    h1 {
+        font-size: 50px;
+        text-transform: uppercase;
+        color: $colorDeco;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        color: $colorDarkest;
+    }
+}
+
