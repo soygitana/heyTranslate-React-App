@@ -79,7 +79,8 @@ class VendorBox extends Component {
                 </select>
                 <form className="app-pricebox">
                     <p className="description">price rate:</p>
-                    <input onChange={this.valueHandler} type="number" className="quantity" value={this.state.value1} />
+                    <input onChange={this.valueHandler} type="number" className="quantity" value={this.state.value1}
+                    />
                     <p className="description">word count:</p>
                     <input onChange={this.valueHandler2} type="number" className="quantity" value={this.state.value2} />
                     <p className="total">Total: <span id="total">${this.state.value1 * this.state.value2}</span></p>

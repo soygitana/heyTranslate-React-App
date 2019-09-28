@@ -9,11 +9,12 @@ import {
 } from 'react-router-dom';
 
 
+import Header from './header.jsx';
+import Footer from './footer.jsx';
 import Main from './main.jsx'
 import Comparison from './comparison.jsx'
 import NotFound from './notfound.jsx'
-import Header from './header.jsx';
-import Footer from './footer.jsx';
+
 
 
 // creating main App component which is rendering my app :)
