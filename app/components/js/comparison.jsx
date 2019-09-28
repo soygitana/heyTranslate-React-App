@@ -9,11 +9,8 @@ import Footer from './footer.jsx';
 class VendorBox extends Component {
     render() {
         return (
-            <div className="app-container col-12">
-              <div className="app-vendorbox">
-              </div>
-            </div>
-          )
+            <div className="app-vendorbox">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt qui aperiam molestiae, excepturi quis saepe similique autem. Nesciunt maiores quidem explicabo laborum earum fuga ipsum voluptate dolor, aliquid voluptatibus debitis!</div>
+        )
     }
 }
 
@@ -22,13 +19,13 @@ class VendorPanel extends Component {
     render() {
         return (
             <div className="app-container col-12">
-              <div className="app-vendorpanel">
-              <VendorBox />
-              <VendorBox />
-              <VendorBox />
-              </div>
+                <div className="app-vendorpanel">
+                    <VendorBox />
+                    <VendorBox />
+                    <VendorBox />
+                </div>
             </div>
-          )
+        )
     }
 }
 
