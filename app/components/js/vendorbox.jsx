@@ -12,10 +12,12 @@ class VendorBox extends Component {
             page: 1,
             data: [],
             value1: 0.1,
-            value2: 0
+            value2: 0,
+            value3: 0.0,
         };
         this.valueHandler = this.valueHandler.bind(this);
         this.valueHandler2 = this.valueHandler2.bind(this);
+        this.valueHandler3 = this.valueHandler3.bind(this);
     }
 
     // creating functions valueHandler for onChange event in input, changing state value to event value
@@ -29,6 +31,12 @@ class VendorBox extends Component {
     valueHandler2(event) {
         this.setState({
             value2: parseFloat(event.target.value),
+        })
+    }
+
+    valueHandler3(event) {
+        this.setState({
+            value3: parseFloat(event.target.value),
         })
     }
 
@@ -77,13 +85,23 @@ class VendorBox extends Component {
                         ))
                     }
                 </select>
+                <h2>service type</h2>
+                <select className="selectpicker" data-show-subtext="true">
+                    <option value="1">select service</option>
+                    <option value="2">translation</option>
+                    <option value="4">editing</option>
+                    <option value="4">proofreading</option>
+                </select>
                 <form className="app-pricebox">
                     <p className="description">price rate:</p>
                     <input onChange={this.valueHandler} type="number" className="quantity" value={this.state.value1}
                     />
                     <p className="description">word count:</p>
                     <input onChange={this.valueHandler2} type="number" className="quantity" value={this.state.value2} />
-                    <p className="total">Total: <span id="total">${this.state.value1 * this.state.value2}</span></p>
+                    <p className="description">rush fee:</p>
+                    <input onChange={this.valueHandler3} type="number" className="quantity" value={this.state.value3}
+                    />
+                    <p className="total">Total: <span id="total">${(this.state.value1 * this.state.value2) + ((this.state.value1 * this.state.value2) * this.state.value3)}</span></p>
                 </form>
             </div >
         )
