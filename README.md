@@ -1,6 +1,6 @@
-HeyTranslate
+### HeyTranslate
 
-### This project was created with [React](https://reactjs.org/)
+This project was created with [React](https://reactjs.org/)
 
 Technologies used
 React 
