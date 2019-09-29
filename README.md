@@ -29,6 +29,8 @@ Please make sure to update tests as appropriate.
 
 ### Learn More
 
+[I'm an inline-style link](https://www.google.com)
+
 [You can learn more in the Create React App documentation] (https://create-react-app.dev/docs/getting-started/).
 
 To learn React, check out the React documentation.(https://reactjs.org/)
