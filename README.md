@@ -1,4 +1,4 @@
-#### HeyTranslate
+### HeyTranslate
 
 _______________________________________________________________________________________________________________________________________
 
@@ -7,7 +7,7 @@ This project was created with [React](https://reactjs.org/)
 See it live here: 
 
 
-## Technologies used
+### Technologies used
 
 * React.js
 * ES6
@@ -16,7 +16,7 @@ See it live here:
 * Bootstrap 4
 
 
-## Local installation
+### Local installation
 
 Requires Node.js v4+ to run.
 
