@@ -42,6 +42,8 @@ Run mock api to populate database
 ```
 $ npm run mock:api
 ```
+Open a browser and access http://localhost:3000/data
+
 
 Type the following command to start the server:
 
