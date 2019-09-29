@@ -20,10 +20,10 @@ See it live here:
 
 Requires Node.js v4+ to run.
 
-```
-Clone this repository or download and unzip this zip file.
 
-Open it in your IDE.
+** Clone this repository or download and unzip this zip file.
+
+** Open it in your IDE.
 
 Install npm:
 
