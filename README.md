@@ -46,6 +46,8 @@ $ npx webpack-dev-server --hot -d
 
 Open a browser and access http://localhost:3001
 
+For full compatibilty please use Chrome.
+
 ### Learn More
 
 To learn React, check out the [React documentation](https://reactjs.org/)
