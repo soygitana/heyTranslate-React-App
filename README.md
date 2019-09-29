@@ -6,8 +6,6 @@ This project was created with [React](https://reactjs.org/)
 
 See it live here: 
 
-![](images/app.jpeg?raw=true)
-
 ### Technologies used
 
 * React.js
