@@ -25,12 +25,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
 
 
 ### Learn More
 
-You can learn more in the Create React App documentation.
+You can learn more in the Create React App documentation (https://create-react-app.dev/docs/getting-started/).
 
-To learn React, check out the React documentation.
+To learn React, check out the React documentation.(https://reactjs.org/)
