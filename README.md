@@ -30,12 +30,6 @@ Install npm:
 $ npm install
 ```
 
-Type the following command to build the client application:
-
-```
-$ npm run webpack
-```
-
 Run mock api to populate database
 
 ```
