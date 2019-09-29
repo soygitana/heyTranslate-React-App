@@ -15,7 +15,3 @@ class Footer extends Component {
 }
 
 export default Footer;
-
-
-
-// <p>Built by @soygitana with React, Node.js and MongoDB. Data based on Wikipedia. Source code available on GitHub.</p>
