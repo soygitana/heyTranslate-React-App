@@ -6,6 +6,7 @@ This project was created with [React](https://reactjs.org/)
 
 See it live here: 
 
+![](images/app.png?raw=true)
 
 ### Technologies used
 
