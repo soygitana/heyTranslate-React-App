@@ -11,6 +11,7 @@ This project was created with [React](https://reactjs.org/)
 * Sass
 * Axios / Fetch API
 * Bootstrap 4
+* JSON
 
 
 ### Local installation
