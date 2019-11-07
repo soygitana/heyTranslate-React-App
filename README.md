@@ -17,7 +17,7 @@ Search and compare your vendors with heyTranslate React app!
 
 ![translate3](https://user-images.githubusercontent.com/43447293/68397798-07633e00-0174-11ea-808d-316099b9a1f8.JPG)
 
-![translate4](https://user-images.githubusercontent.com/43447293/68397439-7db37080-0173-11ea-938b-fb9b501b5457.JPG)
+![translate4](https://user-images.githubusercontent.com/43447293/68397974-4e513380-0174-11ea-9fce-be42b0116288.JPG)
 
 ### Technologies used
 
