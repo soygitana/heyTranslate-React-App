@@ -1,7 +1,9 @@
-# HeyTranslate
+# heyTranslate
 
 
 This project was created with [React](https://reactjs.org/)
+
+Search and compare your vendors with heyTranslate React app!
 
 1. Keep your vendors in the database
 
