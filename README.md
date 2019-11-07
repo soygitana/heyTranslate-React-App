@@ -3,6 +3,13 @@
 
 This project was created with [React](https://reactjs.org/)
 
+1. Keep your vendors in the database
+
+![translate1](https://user-images.githubusercontent.com/43447293/68397191-0ed61780-0173-11ea-94cc-b792a66be73a.JPG)
+
+2. Filter your vendors...
+
+
 
 ### Technologies used
 
