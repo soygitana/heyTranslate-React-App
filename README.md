@@ -9,6 +9,10 @@ This project was created with [React](https://reactjs.org/)
 
 2. Filter your vendors...
 
+![translate2](https://user-images.githubusercontent.com/43447293/68397326-4ba20e80-0173-11ea-9d70-405d52146160.JPG)
+
+3. and compare their services!
+
 
 
 ### Technologies used
