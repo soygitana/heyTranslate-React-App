@@ -15,7 +15,7 @@ Search and compare your vendors with heyTranslate React app!
 
 3. and compare their services!
 
-![transate3](https://user-images.githubusercontent.com/43447293/68397380-67a5b000-0173-11ea-8869-caeb4ffea4e2.JPG)
+![translate3](https://user-images.githubusercontent.com/43447293/68397798-07633e00-0174-11ea-808d-316099b9a1f8.JPG)
 
 ![translate4](https://user-images.githubusercontent.com/43447293/68397439-7db37080-0173-11ea-938b-fb9b501b5457.JPG)
 
