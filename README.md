@@ -15,7 +15,7 @@ This project was created with [React](https://reactjs.org/)
 
 ![transate3](https://user-images.githubusercontent.com/43447293/68397380-67a5b000-0173-11ea-8869-caeb4ffea4e2.JPG)
 
-
+![translate4](https://user-images.githubusercontent.com/43447293/68397439-7db37080-0173-11ea-938b-fb9b501b5457.JPG)
 
 ### Technologies used
 
