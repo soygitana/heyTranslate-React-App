@@ -34,7 +34,7 @@ Search and compare your vendors with heyTranslate React app!
 Requires Node.js v4+ to run.
 
 
-* Clone this repository or download and unzip this zip file.
+* Clone this repository or download and unzip the zip file.
 
 * Open it in your IDE.
 
