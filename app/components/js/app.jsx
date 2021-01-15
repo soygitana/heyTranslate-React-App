@@ -1,23 +1,11 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import {
-  HashRouter,
-  Route,
-  Link,
-  Switch,
-  NavLink,
-} from 'react-router-dom';
-
-
-import Header from './header.jsx';
-import Footer from './footer.jsx';
-import Main from './main.jsx'
-import Comparison from './comparison.jsx'
-import NotFound from './notfound.jsx'
-
-
-
-// creating main App component which is rendering my app :)
+import { HashRouter, Route, Switch } from "react-router-dom";
+import Header from "./header.jsx";
+import Footer from "./footer.jsx";
+import Main from "./main.jsx";
+import Comparison from "./comparison.jsx";
+import NotFound from "./notfound.jsx";
 
 class App extends Component {
   render() {
@@ -25,17 +13,14 @@ class App extends Component {
       <HashRouter>
         <Header />
         <Switch>
-          <Route exact path='/' component={Main} />
-          <Route exact path='/comparison' component={Comparison} />
+          <Route exact path="/" component={Main} />
+          <Route exact path="/comparison" component={Comparison} />
           <Route component={NotFound} />
         </Switch>
         <Footer />
       </HashRouter>
-    )
+    );
   }
 }
 
-ReactDOM.render(
-  <App />,
-  document.getElementById("app")
-)
+ReactDOM.render(<App />, document.getElementById("app"));
